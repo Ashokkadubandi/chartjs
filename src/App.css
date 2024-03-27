@@ -12,27 +12,30 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bar-chart {
+  width: 900px;
+  height: 700px;
+}
+.bar-chart-con {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 30px;
+  height: 100vh;
+}
+.animate-loader {
+  height: 80px;
+  margin-top: 50px;
+  width: 80px;
+  border-top: 5px solid #012d91;
+  border-radius: 75px;
+  animation: 1s linear loader infinite;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
+@keyframes loader {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
 }
