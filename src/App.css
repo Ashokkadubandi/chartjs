@@ -16,6 +16,12 @@
   width: 900px;
   height: 700px;
 }
+@media (max-width: 568px) {
+  .bar-chart {
+    width: 300px;
+    height: 300px;
+  }
+}
 .bar-chart-con {
   display: flex;
   justify-content: center;
